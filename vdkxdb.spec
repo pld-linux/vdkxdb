@@ -13,6 +13,10 @@ Source0:	http://dl.sourceforge.net/vdklib/%{name}-%{version}.tar.gz
 # Source0-md5:	e603e6f3b78bd6e17572025e02130ae7
 Patch0:		%{name}-xbase_ver.patch
 Patch1:		%{name}-ac_FLAGS.patch
+URL:		http://vdklib.sourceforge.net/
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
