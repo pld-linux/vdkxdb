@@ -3,7 +3,7 @@
 %bcond_without  static_libs # don't build static libraries
 #
 Summary:	VDKXdb - a set of data-aware widgets to build database applications using VDK
-Summary(pl.UTF-8):   VDKXdb - zestaw widżetów do budowy aplikacji bazodanowych przy użyciu VDK
+Summary(pl.UTF-8):	VDKXdb - zestaw widżetów do budowy aplikacji bazodanowych przy użyciu VDK
 Name:		vdkxdb
 Version:	2.4.0
 Release:	0.1
@@ -29,7 +29,7 @@ aplikacji bazodanowych przy użyciu biblioteki VDK.
 
 %package devel
 Summary:	Header files for vdkxdb library
-Summary(pl.UTF-8):   Pliki nagłówkowe biblioteki vdkxdb
+Summary(pl.UTF-8):	Pliki nagłówkowe biblioteki vdkxdb
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 
@@ -41,7 +41,7 @@ Pliki nagłówkowe biblioteki vdkxdb.
 
 %package static
 Summary:	Static vdkxdb library
-Summary(pl.UTF-8):   Statyczna biblioteka vdkxdb
+Summary(pl.UTF-8):	Statyczna biblioteka vdkxdb
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
