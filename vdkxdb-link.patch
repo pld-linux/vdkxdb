@@ -1,0 +1,11 @@
+--- vdkxdb-2.5.0/src/Makefile.am.orig	2009-11-04 16:38:03.000000000 +0100
++++ vdkxdb-2.5.0/src/Makefile.am	2024-07-24 17:39:31.887609297 +0200
+@@ -6,7 +6,7 @@ libvdkxdb_@VDKXDB_VERSION_MAJOR@_la_LDFL
+ 	-version-info $(LT_VDKXDB_CURRENT):$(LT_VDKXDB_REVISION):$(LT_VDKXDB_AGE) 
+ #	-release $(LT_VDKXDB_RELEASE)
+ 
+-libvdkxdb_@VDKXDB_VERSION_MAJOR@_la_LIBADD = $(VDK_LIBS)
++libvdkxdb_@VDKXDB_VERSION_MAJOR@_la_LIBADD = $(VDK_LIBS) -lxbase
+ 
+ libvdkxdb_@VDKXDB_VERSION_MAJOR@_la_SOURCES = vdkxdb.cc \
+ 	vdkxtable.cc \
